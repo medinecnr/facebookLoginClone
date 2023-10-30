@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    padding: 150px 0px 180px 0px;
+    background: #f0f2f5;
+}
+
+.sol{
+    display: block;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.logo{
+    width: 364px;
+    margin-left: -50px;
+}
+
+.logoyazi{
+    font-size: 28px;
+    color: #1c1e21;    
+    margin-top: -20px;
+    width: 480px;
+    margin: auto;
+}
+
+.form{
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 8px;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 0 auto;
+    margin-right: 220px;
+    
+    
+}
+
+.form input{
+    width: 364px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid lightgray;
+    padding: 14px 16px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.form input::placeholder{
+    font-size: 17px; 
+}
+
+.girisyap{
+    background-color: #1877f2 !important;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.sifre{
+    color: #1877f2;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.yenihesap{
+    background-color: #42b72a !important; 
+    font-size: 17px;
+    border-radius: 6px;
+    color: white;
+    width: 180px !important;
+}
+
+.cizgi{
+    width: 100%;
+    color: rgb(150, 150, 150);
+    border: 1px solid #dbdde1;
+}
+
+.sayfaolustur{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.sagaltparagraf{
+    color: #1c1e21;
+    font-size: 14px;
+    width: 396px;
+    margin: 20px auto;
+    text-align: center;
+    margin-right: 220px;  
+
+}
+
+.diller{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.diller li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.diller a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 14px;
+}
+
+.diller a:hover{
+    text-decoration: underline;
+}
+
+.dil-buton{
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    color: #6a7180;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.dil-buton:hover{
+    background-color: #afb3b8;
+    transition: 1s ;
+}
+.cizgi-alt{
+    width: 70%;
+    display: block;
+    margin: auto;
+    color: rgb(150, 150, 150);
+    border: 1px solid #dbdde1;
+    margin-top: 10px;
+}
+
+.alt-linkler{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+  
+  .alt-linkler li {
+    display: inline-block;
+    margin-right: 15px;
+}
+  
+  .alt-linkler a{
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 14px;
+}
+
+  .alt-linkler a:hover{
+    text-decoration: underline;
+}
+  
+.metayazisi{
+    color: #8a8d91;
+    font-size: 14px;
+    width: 70%;
+    margin: 15px auto;
+}
+
+
+@media (max-width:850px){
+    main{
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 0.5px 0px 130px 0px;
+    }
+
+    .logo{
+        display: block;
+        margin: auto;
+        width: 334px;
+        margin-top: 20px;
+
+    
+}
+    .logoyazi{
+    width: 350px;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 396px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.sagaltparagraf{
+margin: auto;
+}
+}
